@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- Librería Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- Cuadrado con circulo inscrito -->
+    <h2>Cuadrado con circulo inscrito</h2>
+    <div id="cuadrado">
+        <div id="circulo"></div>
+    </div>
+
+    <!-- Grafico -->
+    <h2>Grafico estimaciones de PI (π)</h2>
+    <canvas id="myChart"></canvas>
+
+
+    <!-- Tabla -->
+    <h2>Tabla</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Iteracion</th>
+                <th>Cantidad de dardos</th>
+                <th>Dardos en el circulo</th>
+                <th>PI</th>
+            </tr>
+        </thead>
+        <tbody id="cuerpoTabla"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

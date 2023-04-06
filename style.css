@@ -1,0 +1,30 @@
+#cuadrado {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+#circulo {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+#dardos {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.dentro_circulo {
+    background-color: green;
+}
+
+.fuera_circulo {
+    background-color: red;
+}

@@ -85,8 +85,7 @@ for (let i = 0; i < total_iteraciones; i++) {
 
   
   let $tdTiros = document.createElement("td");
-  //$tdTiros.textContent = cantidad_tiros;
-  $tdTiros.textContent = cambia_el_codigo;
+  $tdTiros.textContent = cantidad_tiros;
   $tr.appendChild($tdTiros);
 
   

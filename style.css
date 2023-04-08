@@ -3,7 +3,10 @@ Nombre: Glenn Lanyon Alarcon
 Profesor: MICHAEL EMIL CRISTI CAPSTICK
 Curso: GRAFOS Y LENGUAJES FORMALES
 Seccion: 411
+
+Dejo el cuadrado con el circulo impreso aun que no se muestre por pantalla en caso de que el profesor quiera realizar pruebas con el codigo.
 */
+
 #cuadrado {
   position: relative;
   width: 300px;
